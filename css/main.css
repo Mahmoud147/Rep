@@ -1,0 +1,102 @@
+/* Start Variables */
+:root {
+    --mainBackground: #0055e0;
+    --textColorWithe: #FFFF;
+    --textHeader: #434451;
+    --bColor: #0056e0f3;
+}
+/* End Variables */
+/* Start Global Rules */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #EDF2F7;
+    font-family: 'Cairo', sans-serif, 'Oswald', sans-serif;
+}
+
+ul {
+    list-style: none
+}
+/* End Global Rules */
+/*Start navbar*/
+
+nav {
+    background-color: var(--mainBackground);
+    color: var(--textColorWithe);
+    z-index: 99999;
+    width: 100%;
+    direction: rtl;
+}
+.navbar-light .container .navbar-nav .nav-item a {
+    font-size: 20px;
+    padding: 20px;
+    color: var(--textColorWithe);
+    text-decoration: none;
+}
+.navbar-light .container .navbar-nav .nav-item a:hover {
+    color: #fbc308;
+}
+/*End navbar*/
+/*Start landing */
+
+/* End landing */
+
+/* Start Bar */
+.bar {
+    padding: 50px 0;
+    color: var(--textColorWithe);
+    background-color: var(--bColor);
+    box-shadow: 0px -3px 14px 8px var(--textHeader);
+}
+.bar .content-me p {
+    font-size: 30px;
+}
+/* End Bar */
+
+/*Start Main*/
+.main-side {
+    padding: 80px 0;
+}
+.main-side .content-my-side .box {
+    padding: 15px;
+    padding-top: 30px;
+    background: #fff;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 1px solid #dadde1 !important;
+    position: relative;
+    transform: translateY(0);
+    transition: all .2s cubic-bezier(.4, 0, .2, 1);
+}
+.main-side .content-my-side .box .img img {
+    border-radius: 10px;
+    border: 1px solid #b9b9b9;
+    padding: 4px;
+    height: 300px;
+}
+.main-side .content-my-side .box h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.main-side .content-my-side a {
+    text-decoration: none;
+    color: #000;
+}
+.main-side .content-my-side a:hover {
+    color: var(--mainBackground);
+}
+/*End Main*/
+/* Start Footer */
+footer {
+    background-color: var(--mainBackground);
+    color: var(--textColorWithe);
+    padding: 20px;
+    font-size: 15px;
+    
+}
+/* End Footer */

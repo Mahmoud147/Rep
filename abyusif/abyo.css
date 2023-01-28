@@ -1,0 +1,22 @@
+body {
+    font-family: 'Cairo', sans-serif, 'Oswald', sans-serif;
+}
+
+.container {
+    margin: 10px;
+}
+.container .row .title h2,
+.container .row .audio audio,
+.container .row .dow h2 {
+    font-size: 25px;
+    margin: 5px;
+    padding: 5px;
+}
+.container .row .dow h2:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
